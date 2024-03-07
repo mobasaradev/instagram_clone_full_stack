@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "205912567318",
+    "project_id": "instagram-clone-flutikx",
+    "storage_bucket": "instagram-clone-flutikx.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205912567318:android:25370e79230d18eeaf4f37",
+        "android_client_info": {
+          "package_name": "com.example.instagram_clone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5F75v7IlORahln7P21ijt6m_pBg56N-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

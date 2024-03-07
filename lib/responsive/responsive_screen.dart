@@ -17,7 +17,6 @@ class ResponsiveLayout extends StatelessWidget {
         if (constraints.maxWidth > Dimension.webScreen) {
           return webScreenLayout;
         }
-
         return mobileScreenLayout;
       },
     );
