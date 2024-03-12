@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:instagram_clone/utils/app_config.dart';
 import 'package:instagram_clone/utils/theme.dart';
-
-import 'responsive/mobile_screen_layout.dart';
-import 'responsive/responsive_screen.dart';
-import 'responsive/web_screen_layout.dart';
+import 'package:instagram_clone/view/auth/register_page.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -12,12 +10,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Instagram Clone',
+      title: AppConfig.title,
       theme: AppTheme.darkTheme,
-      home: const ResponsiveLayout(
-        mobileScreenLayout: MobileScreenLayout(),
-        webScreenLayout: WebScreenLayout(),
-      ),
+      // home: const ResponsiveLayout(
+      //   mobileScreenLayout: MobileScreenLayout(),
+      //   webScreenLayout: WebScreenLayout(),
+      // ),
+      home: const RegisterPage(),
     );
   }
 }
